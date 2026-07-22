@@ -44,7 +44,7 @@ Python-OOP-Game/
 
 ## Architecture
 
-The project was eventually refactored from a single-file implementation into a semi-modular structure to improve readability and to clearly delineate the responsibilities of each individual class.
+The project was eventually refactored from a single-file implementation into a semi-modular structure to improve readability and to clearly delineate the responsibilities of each component.
 
 - **Difficulty.py**: Stores difficulty settings, difficulty selection logic, and game parameters
 - **Game.py**: Controls gameplay, rounds, scoring, and interactions between systems
