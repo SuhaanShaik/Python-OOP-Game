@@ -92,4 +92,3 @@ python3 Start.py
 - Improved leaderboard functionality and ranking systems
 - More detailed player analytics and statistics
 - Additional save management features
-```
