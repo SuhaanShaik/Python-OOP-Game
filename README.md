@@ -8,9 +8,9 @@
 
 ## Description
 
-Luck Game is a Python-based object-oriented number guessing game featuring player progression, statistics tracking, XP, achievements, and a leaderboard display system.
+Luck Game is an object-oriented Python project that started out as a simple number guessing game and eventually became a full player progression-based game with persistent data, achievements, XP, and leaderboards.
 
-The project uses a semi-modular object-oriented structure with separate components for gameplay logic, player management, difficulty systems, leaderboard management, save management, and JSON-based data persistence.
+The project now uses a semi-modular object-oriented structure with separate components for gameplay logic, player management, difficulty systems, leaderboard management, save management, and JSON-based data persistence.
 
 ## Features
 
@@ -44,7 +44,7 @@ Python-OOP-Game/
 
 ## Architecture
 
-The project follows object-oriented design principles with a semi-modular structure:
+The project was eventually refactored from a single-file implementation into a semi-modular structure to improve readability and to clearly delineate the responsibilities of each individual class.
 
 - **Difficulty.py**: Stores difficulty settings, difficulty selection logic, and game parameters
 - **Game.py**: Controls gameplay, rounds, scoring, and interactions between systems
