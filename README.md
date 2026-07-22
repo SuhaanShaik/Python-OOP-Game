@@ -50,7 +50,7 @@ The project was eventually refactored from a single-file implementation into a s
 - **Game.py**: Controls gameplay, rounds, scoring, and interactions between systems
 - **Player.py**: Manages player profiles, statistics, XP, leveling, achievements, and player data serialization
 - **Leaderboard.py**: Handles player rankings, searching, and score comparisons
-- **Saveanager.py**: Handles JSON-based saving and loading of player data
+- **SaveManager.py**: Handles JSON-based saving and loading of player data
 - **Start.py**: Acts as the program entry point and manages menus, player login, and overall program flow
 
 ## Concepts Used
@@ -81,7 +81,7 @@ cd Python-OOP-Game
 3. Run the game from the entry point:
 
 ```bash
-python3 Start.py
+python3 src/Start.py
 ```
 
 ## Future Improvements
