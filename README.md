@@ -8,9 +8,9 @@
 
 ## Description
 
-Luck Game is an object-oriented Python project that started out as a simple number guessing game and eventually became a full player progression-based game with persistent data, achievements, XP, and leaderboards.
+Luck Game is an object-oriented Python project that evolved from a simple number guessing game into a full progression-based game featuring persistent player profile data, achievements, XP, and leaderboards.
 
-The project now uses a semi-modular object-oriented structure with separate components for gameplay logic, player management, difficulty systems, leaderboard management, save management, and JSON-based data persistence.
+The project now uses a modular object-oriented structure with separate components for gameplay logic, player management, difficulty systems, leaderboard management, save management, and JSON-based data persistence.
 
 ## Features
 
@@ -29,18 +29,16 @@ The project now uses a semi-modular object-oriented structure with separate comp
 Python-OOP-Game/
 │
 ├── src/
+│   ├── Achievement.py
 │   ├── Difficulty.py
 │   ├── Game.py
 │   ├── Player.py
 │   ├── Leaderboard.py
 │   ├── SaveManager.py
-│   ├── Start.py
-│   └── Achievement.py
+│   └── Start.py
 │
 ├── images/
-│
 ├── Legacy (full Game)/
-│
 ├── players_example.json
 ├── README.md
 ├── LICENSE
@@ -51,13 +49,13 @@ Python-OOP-Game/
 
 The project was eventually refactored from a single-file implementation into a semi-modular structure to improve readability and to clearly delineate the responsibilities of each component.
 
+- **Achievement.py**: Defines all available achievements and the requirements for unlocking them
 - **Difficulty.py**: Stores difficulty settings, difficulty selection logic, and game parameters
 - **Game.py**: Controls gameplay, rounds, scoring, and interactions between systems
 - **Player.py**: Manages player profiles, statistics, XP, leveling, achievements, and player data serialization
 - **Leaderboard.py**: Handles player rankings, searching, and score comparisons
 - **SaveManager.py**: Handles JSON-based saving and loading of player data
 - **Start.py**: Acts as the program entry point and manages menus, player login, and overall program flow
-- **Achievement.py**: Defines all available achievements and the requirements for unlocking them
 
 ## Concepts Used
 
@@ -71,6 +69,11 @@ The project was eventually refactored from a single-file implementation into a s
 - Data persistence
 
 ## How to Run
+
+### Requirements
+
+- Python 3.x
+- No external dependencies required (uses Python standard library)
 
 1. Clone the repository:
 
