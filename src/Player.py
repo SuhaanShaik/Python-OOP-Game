@@ -1,4 +1,31 @@
-from Achievement import *
+from Achievement import (
+    FIRST_WIN,
+    ROOKIE,
+    EXPERIENCED,
+    VETERAN,
+    LEGENDARY,
+    INSANITY,
+    MASTER,
+    IMPOSSIBLE,
+    APPRENTICE,
+    WIZARD_OF_LUCK,
+    FORTUITOUS_WARLOCK,
+    THE_CHAMPION,
+    DEDICATED,
+    THE_BIGGEST_FISH,
+    WTF,
+    SUPREME,
+    COURAGEOUS,
+    ON_FIRE,
+    UNSTOPPABLE,
+    BAD_LUCK,
+    ROUGH_START,
+    UNLUCKY,
+    CURSED,
+    THE_BLACK_HOLE,
+    WHY_ARE_YOU_HERE,
+    THE_COMEBACK
+)
 from Difficulty import (
     SUPER_EASY,
     EASY,
@@ -199,7 +226,7 @@ class Player:
         self.xp -= self.xp_needed_for_next_level
         self.level += 1
 
-        print(f"\n yLEVEL UP! You reached Level {self.level}!")
+        print(f"\n LEVEL UP! You reached Level {self.level}!")
 
       self.check_achievements()
 
