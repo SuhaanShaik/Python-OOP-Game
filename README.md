@@ -68,6 +68,14 @@ The project was eventually refactored from a single-file implementation into a s
 - JSON serialization/deserialization
 - Data persistence
 
+## Technologies Used
+
+- Python 3.x
+- Standard Library Modules:
+  - `random` for randomized gameplay mechanics
+  - `json` for player data persistence
+  - `os` for file and directory management
+
 ## How to Run
 
 ### Requirements
