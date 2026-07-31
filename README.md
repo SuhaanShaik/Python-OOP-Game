@@ -34,7 +34,8 @@ Python-OOP-Game/
 │   ├── Player.py
 │   ├── Leaderboard.py
 │   ├── SaveManager.py
-│   └── Start.py
+│   ├── Start.py
+│   └── Achievement.py
 │
 ├── images/
 │
@@ -56,6 +57,7 @@ The project was eventually refactored from a single-file implementation into a s
 - **Leaderboard.py**: Handles player rankings, searching, and score comparisons
 - **SaveManager.py**: Handles JSON-based saving and loading of player data
 - **Start.py**: Acts as the program entry point and manages menus, player login, and overall program flow
+- **Achievement.py**: Defines all available achievements and the requirements for unlocking them
 
 ## Concepts Used
 
