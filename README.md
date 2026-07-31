@@ -25,6 +25,7 @@ The project now uses a semi-modular object-oriented structure with separate comp
 
 ## Project Structure
 
+```text
 Python-OOP-Game/
 │
 ├── src/
@@ -36,11 +37,14 @@ Python-OOP-Game/
 │   └── Start.py
 │
 ├── images/
+│
 ├── Legacy (full Game)/
+│
 ├── players_example.json
 ├── README.md
 ├── LICENSE
 └── .gitignore
+```
 
 ## Architecture
 
