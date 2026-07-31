@@ -1,4 +1,9 @@
-Class Game:
+import random
+
+from Difficulty import SUPER_EASY
+from Achievement import IMPOSSIBLE
+
+class Game:
     def __init__(self, difficulty, player, leaderboard, save_manager):
         self.difficulty = difficulty
         self.player = player
