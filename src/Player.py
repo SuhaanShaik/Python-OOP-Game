@@ -1,31 +1,4 @@
-from Achievement import (
-    FIRST_WIN,
-    ROOKIE,
-    EXPERIENCED,
-    VETERAN,
-    LEGENDARY,
-    INSANITY,
-    MASTER,
-    IMPOSSIBLE,
-    APPRENTICE,
-    WIZARD_OF_LUCK,
-    FORTUITOUS_WARLOCK,
-    THE_CHAMPION,
-    DEDICATED,
-    THE_BIGGEST_FISH,
-    WTF,
-    SUPREME,
-    COURAGEOUS,
-    ON_FIRE,
-    UNSTOPPABLE,
-    BAD_LUCK,
-    ROUGH_START,
-    UNLUCKY,
-    CURSED,
-    THE_BLACK_HOLE,
-    WHY_ARE_YOU_HERE,
-    THE_COMEBACK
-)
+from Achievement import *
 from Difficulty import (
     SUPER_EASY,
     EASY,
@@ -324,6 +297,9 @@ class Player:
       player = cls(data["name"])
 
       player.id = data["id"]
+      if player.id >= cls.next_id:
+        cls.next_id = player.id + 1
+            
       player.total_score = data["total_score"]
       player.total_wins = data["total_wins"]
       player.games_played = data["games_played"]
